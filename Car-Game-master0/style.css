@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+.carGame {
+  width: 100%;
+  height: 100vh;
+  background: #000 url("./imagens/Virtual.jpg") center/cover no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.car,
+.enemy {
+  width: 50px;
+  height: 100px;
+  background: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 120px;
+  background-image: url(last2.png);
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 10px;
+  background-size: 100% 100%;
+  box-shadow: 10px 20px 10px rgba(9, 0, 0, 0.5);
+}
+
+.gameArea {
+  width: 400px;
+  height: 100vh;
+  background: #2d3436;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border-right: 7px dashed rgb(0, 0, 0);
+  border-left: 7px dashed rgb(0, 0, 0);
+  box-shadow: 0px 1px 5px red, 0px 10px 10px rgb(0, 0, 0),
+    5px 1px 3px rgb(0, 0, 0), 1px 20px 300px rgb(255, 0, 0),
+    -810px 20px 0px rgba(1, 0, 0, 0.1);
+  /* box-shadow: 10px 20px 10px rgba(9,0,0,0.5);*/
+}
+
+.lines {
+  width: 10px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+  margin-left: 195px;
+}
+
+.score {
+  transform: translateX(20%);
+  position: absolute;
+  letter-spacing: 1px;
+  top: 180px;
+  left: 40px;
+  width: 200px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  font-family: fantasy;
+  font-size: 50px;
+  text-shadow: 0 5px 5px rgb(255, 0, 0);
+}
+.highScore {
+  transform: translateX(1050px);
+  letter-spacing: 1px;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  /*background:aqua;*/
+  width: 200px;
+  line-height: 70px;
+  text-align: center;
+  font-family: cursive;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  font-family: fantasy;
+  font-size: 50px;
+  text-shadow: 0 5px 5px rgb(255, 0, 0);
+}
+.startScreen {
+  position: absolute;
+  background-color: #000000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+  text-align: center;
+  border: 1px solid #ff6b6b;
+  padding: 15px;
+  margin: auto;
+  width: 50%;
+  font-family: cursive;
+  letter-spacing: 5;
+  font-size: 20px;
+  word-spacing: 3;
+  line-height: 30px;
+  text-transform: uppercase;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50px;
+}
+.startScreen:hover,
+.startScreen:active,
+.startScreen:focus {
+  width: 50%;
+  padding: 30px;
+  color: rgb(255, 0, 0);
+  letter-spacing: 10;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgb(255, 0, 0);
+  border: 5px solid red;
+}
+.score:hover,
+.highScore:hover {
+  font-family: fantasy;
+  font-size: 55px;
+  text-shadow: 6px 10px 10px rgb(255, 0, 0);
+}
+
+.voltar-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #cc0000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.voltar-btn:hover {
+  background-color: #a30000;
+}
