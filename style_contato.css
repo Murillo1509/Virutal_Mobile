@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: "Lexend Deca";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("./imagens/Virtual.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header a {
+  color: rgb(138, 1, 1);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.header a:hover {
+  color: rgb(255, 116, 116);
+}
+
+.titulo_Car {
+  margin-top: 90px;
+}
+
+.cont{
+    color: red;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  color: red;
+}
+
+.main-content h1 span {
+  color: white;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.contato {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+   box-shadow: 0 0 60px rgb(255, 0, 0);
+}
+
+.contato h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ff0000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #a30000;
+}

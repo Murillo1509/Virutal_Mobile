@@ -1,0 +1,213 @@
+/* === Base === */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Lexend Deca";
+  color: #fff;
+  text-align: center;
+  background: black url("./imagens/Virtual.jpg") center/cover no-repeat fixed;
+}
+
+/* === Cabeçalho === */
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header a {
+  color: rgb(138, 1, 1);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header a:hover {
+  color: rgb(255, 116, 116);
+}
+
+/* === Título === */
+.titulo_Car {
+  margin-top: 90px;
+}
+
+.aut {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+.main-content {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  color: red;
+}
+
+.main-content h1 span {
+  color: white;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.cont {
+  color: red;
+}
+
+/* === Imagens e textos decorativos === */
+.logVt img {
+  margin-top: -15px;
+  width: 200px;
+  height: auto;
+}
+
+.vt {
+  color: red;
+}
+
+.escrita_titulo {
+  margin-top: -30px;
+}
+
+.escrita {
+  margin-top: 5px;
+}
+
+.car-image img {
+  margin-top: 30px;
+  width: 300px;
+}
+
+/* === Banner === */
+.banner {
+  text-align: center;
+  padding: 50px;
+  background: url("car-banner.jpg") center/cover no-repeat;
+  color: white;
+}
+
+.banner h2 {
+  font-size: 36px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+/* === Lista de carros === */
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centraliza os cards */
+  gap: 30px;               /* espaçamento entre os cards */
+  padding: 40px 20px;
+}
+
+.car-item {
+  flex: 0 0 200px; /* largura fixa */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+  color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.car-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.carro_defeituoso img {
+  height: 220px;
+}
+
+.s {
+  color: green;
+}
+
+/* === Formulário === */
+.form-section {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-section form input,
+.form-section form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-section form button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-section form button:hover {
+  background-color: darkred;
+}
+
+/* === Rodapé === */
+footer {
+
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+}
+
+/* === Botões === */
+.login-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+/* === Links gerais === */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ 

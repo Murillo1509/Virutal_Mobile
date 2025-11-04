@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: "Lexend Deca";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("./imagens/Virtual.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header a {
+  color: rgb(138, 1, 1);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.header a:hover {
+  color: rgb(255, 116, 116);
+}
+
+.titulo_Car {
+  margin-top: -20px;
+}
+
+.main-content {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  color: red;
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+}
+
+.main-content h1 span {
+  color: white;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.vt {
+  color: red;
+}
+
+.clique {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0),
+    0 0 20px rgb(255, 0, 0);
+  animation: brilho 1.5s infinite alternate;
+  text-decoration: none;
+}
+
+@keyframes brilho {
+  from {
+    text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0),
+      0 0 20px rgb(255, 0, 0);
+  }
+  to {
+    text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0),
+      0 0 30px rgb(255, 0, 0);
+  }
+}
+
+.pagamento {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.img {
+  width: 450px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid red;
+  box-shadow: 0 0 60px rgb(255, 0, 0);
+  opacity: 0.7;
+  position: fixed;
+  width: 300px;
+  z-index: 1000;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.payment-options h2 {
+  font-size: 22px;
+  color: red;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.car-image img {
+  margin-top: 30px;
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.car-image img:hover {
+  transform: scale(1.1);
+}
+.login-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
